@@ -11,12 +11,12 @@
    }
    ?>
 <aside id="menu" class="sidebar">
-    <div class="logo"><a href="http://education.esquall.com/admin" class="simple-text logo-mini">
+    <!--<div class="logo"><a href="http://education.esquall.com/admin" class="simple-text logo-mini">
         </a>
         <a href="#" class="simple-text logo-normal">
-            <img src="<?php echo base_url('assets/images/Procett-logo.jpg'); ?>" style="max-width: 60%">
+            <img src="<?php /*echo base_url('assets/images/Procett-logo.jpg'); */?>" style="max-width: 60%">
         </a>
-    </div>
+    </div>-->
    <ul class="nav metis-menu" id="side-menu">
       <li class="dashboard_user<?php if($totalQuickActionsRemoved == count($quickActions)){echo ' dashboard-user-no-qa';}?>">
          <?php echo _l('welcome_top',$current_user->firstname); ?> <i class="fa fa-power-off top-left-logout pull-right" data-toggle="tooltip" data-title="<?php echo _l('nav_logout'); ?>" data-placement="right" onclick="logout(); return false;"></i>

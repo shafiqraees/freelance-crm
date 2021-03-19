@@ -17,7 +17,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 * environments.
 *
 */
-define('APP_BASE_URL', 'http://localhost/workspace/perfex_crm/');
+define('APP_BASE_URL', '[base_url]');
 
 /*
 * --------------------------------------------------------------------------
@@ -32,25 +32,25 @@ define('APP_BASE_URL', 'http://localhost/workspace/perfex_crm/');
 *
 * Auto added on install
 */
-define('APP_ENC_KEY', '3c80d041aceab98f6b06161f1d779ef6');
+define('APP_ENC_KEY', '[encryption_key]');
 
 /**
  * Database Credentials
  * The hostname of your database server
  */
-define('APP_DB_HOSTNAME', 'localhost');
+define('APP_DB_HOSTNAME', '[db_hostname]');
 /**
  * The username used to connect to the database
  */
-define('APP_DB_USERNAME', 'root');
+define('APP_DB_USERNAME', '[db_username]');
 /**
  * The password used to connect to the database
  */
-define('APP_DB_PASSWORD', '');
+define('APP_DB_PASSWORD', '[db_password]');
 /**
  * The name of the database you want to connect to
  */
-define('APP_DB_NAME', 'crm');
+define('APP_DB_NAME', '[db_name]');
 
 /**
  * @since  2.3.0

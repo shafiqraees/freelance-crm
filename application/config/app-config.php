@@ -1,5 +1,3 @@
-
-application/x-httpd-php app-config.php ( PHP script, ASCII text )
 <?php
 
 defined('BASEPATH') or exit('No direct script access allowed');
@@ -19,7 +17,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 * environments.
 *
 */
-define('APP_BASE_URL', 'http://esquall.com/freelance/');
+define('APP_BASE_URL', 'http://localhost/workspace/perfex_crm/');
 
 /*
 * --------------------------------------------------------------------------
@@ -34,7 +32,7 @@ define('APP_BASE_URL', 'http://esquall.com/freelance/');
 *
 * Auto added on install
 */
-define('APP_ENC_KEY', '067ded0b7976b9c8c4e2498f6493c9c3');
+define('APP_ENC_KEY', '3c80d041aceab98f6b06161f1d779ef6');
 
 /**
  * Database Credentials
@@ -44,15 +42,15 @@ define('APP_DB_HOSTNAME', 'localhost');
 /**
  * The username used to connect to the database
  */
-define('APP_DB_USERNAME', 'uqnxyfmy_crm');
+define('APP_DB_USERNAME', 'root');
 /**
  * The password used to connect to the database
  */
-define('APP_DB_PASSWORD', '93!;2TBC9$4_');
+define('APP_DB_PASSWORD', '');
 /**
  * The name of the database you want to connect to
  */
-define('APP_DB_NAME', 'uqnxyfmy_crm');
+define('APP_DB_NAME', 'crm');
 
 /**
  * @since  2.3.0

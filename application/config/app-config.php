@@ -19,7 +19,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 * environments.
 *
 */
-define('APP_BASE_URL', 'http://esquall.com/crm/');
+define('APP_BASE_URL', 'http://esquall.com/freelance/');
 
 /*
 * --------------------------------------------------------------------------
